@@ -36,7 +36,6 @@ class Stack:
 
         if (i+1)/self.getLen() < 0.4:
             self.array = self.array[0:int(self.getLen()/2)]
-        print(self.array)
 
     def peek(self):
         i = self.findFirstNoneIndex()
